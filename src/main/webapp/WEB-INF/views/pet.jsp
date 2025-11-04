@@ -1,4 +1,8 @@
-<%--<%@ page import="org.example.mvc.model.repository.PetRepository" %>--%>
+<%--
+    Repository나 POST 관련된 처리 등을 Controller로 로직을 옮기고,
+    View(UI) jsp는 레이아웃이나 디자인 자체에 집중 -> MVC2
+--%>
+<%--<%@ page import="org.example.mvc.model.repository.InMemoryPetRepository" %>--%>
 <%@ page import="org.example.mvc.model.entity.Pet" %>
 <%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
